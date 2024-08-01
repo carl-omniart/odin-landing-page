@@ -9,6 +9,7 @@ ul {
 /* Image Placeholders */
 
 .cards img {
+  box-sizing: border-box;
   height: 220px;
   width: 220px;
   border: 4px solid #3882f6;
@@ -26,9 +27,96 @@ ul {
 button {
   padding: 12px 48px;
   font-size: 18px;
+  font-weight: 700;
   border: none;
   border-radius: 10px;
 }
+
+/* Layout */
+
+body > * {
+  padding: 0 278px;
+}
+
+.hero .header {
+  padding-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero .header ul {
+  display: flex;
+  gap: 32px;
+}
+
+.hero .main {
+  padding-top: 176px;
+  padding-bottom: 176px;
+  display: flex;
+  align-items: center;
+  gap: 72px;
+}
+
+.hero .main .left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.information {
+  padding-bottom: 160px;
+  text-align: center;
+}
+
+.information .text {
+  padding: 70px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 64px;
+}
+
+.card {
+  max-width: 220px;
+}
+
+.quotation {
+  padding: 180px 460px;
+}
+
+.quotation .author {
+  text-align: right;
+}
+
+.call-to-action {
+  margin: 130px 278px;
+  padding: 70px 160px;
+  border-radius: 20px;
+  display: flex;
+  gap: 180px;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.call-to-action .text {
+  padding-bottom: 8px;
+}
+
+.call-to-action .right {
+  flex-shrink: 0;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 /* Fonts and Coloring */
 
 body {
@@ -86,16 +174,17 @@ body {
 }
 
 .quotation .author {
+  font-size: 24px;
   font-weight: 700;
 }
 
 .call-to-action .text {
-  font-weight: bold;
-  font-size: large;
+  font-weight: 700;
+  font-size: 24px;
 }
 
 .call-to-action button {
   background-color: #3882f6;
-  border: 1px solid #f9faf8;
+  border: 2px solid #f9faf8;
   color: #f9faf8;
 }
