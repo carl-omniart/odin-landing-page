@@ -1,0 +1,78 @@
+/* Reset */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fonts and Coloring */
+
+body {
+  font-family: Roboto, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+.hero, .footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+.information, .quotation {
+  color: #1f2937;
+}
+
+.quotation {
+  background-color: #efe7eb;
+}
+
+.call-to-action {
+  color: #f9faf8;
+  background-color: #3882f6;
+}
+
+.hero .header .logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.hero .main .text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.hero .main button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: none;
+}
+
+.information .text {
+  font-weight: 800;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.quotation .text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.quotation .author {
+  font-weight: 700;
+}
+
+.call-to-action .text {
+  font-weight: bold;
+  font-size: large;
+}
+
+.call-to-action button {
+  background-color: #3882f6;
+  border: 1px solid #f9faf8;
+  color: #f9faf8;
+}
