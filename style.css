@@ -18,7 +18,7 @@ ul {
 
 .hero img {
   /* height: 316px; */
-  width: 696px;
+  height: 316px;
   /* background-color: #6d747d; */
 }
 
@@ -33,6 +33,10 @@ button {
 }
 
 /* Layout */
+
+body {
+  min-width: 1440px;
+}
 
 body > * {
   padding: 0 278px;
